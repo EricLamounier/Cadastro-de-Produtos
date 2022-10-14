@@ -22,6 +22,9 @@ function cadastrar(){
         body: JSON.stringify(_data),
         headers: {"Content-type": "application/json; charset=UTF-8"}
       })
+      .then(document.getElementById("nome-produto").value = "",
+            document.getElementById("descricao-produto").value = "",
+            document.getElementById("valor-produto").value = "");
 
       alert('Cadastrado com sucesso!')
       console.log(_data)
@@ -29,7 +32,7 @@ function cadastrar(){
 }
 
 function listar(){
-    
+    ee
   fetch('http://localhost:3000/products')
 
   .then(function(response){
