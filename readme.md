@@ -4,7 +4,7 @@
 
 Projeto construído para o processo seletivo da empresa OAK Tecnologia com o desenvolvimento de uma página web para o cadastro e listagem de produtos.
 
-[Clique aqui para acessar a página](https://ericlamounier.github.io/Reproducao-AVA-UFV/)
+[Clique aqui para acessar a página](https://ericlamounier.github.io/Cadastro-de-Produtos/)
 
 ## Como executar
 - Executar o comando `npm install`
