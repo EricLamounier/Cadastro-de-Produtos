@@ -55,6 +55,13 @@
       "value": 19,
       "disponibility": "true",
       "id": 6
+    },
+    {
+      "name": "Milho de pipoca",
+      "description": "1 unidade",
+      "value": 5,
+      "disponibility": "true",
+      "id": 7
     }
   ]
 }
