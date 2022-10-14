@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: hsla(233, 100%, 91%, 1);
+    background: linear-gradient(135deg, hsla(233, 100%, 91%, 1) 0%, hsla(0, 0%, 93%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(233, 100%, 91%, 1) 0%, hsla(0, 0%, 93%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(233, 100%, 91%, 1) 0%, hsla(0, 0%, 93%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D1D6FF", endColorstr="#ECECEC", GradientType=1 );
+}
+
+.box {
+   width: 1200px;
+   height: 600px;
+   display: flex;
+   box-shadow: 0px 0px 10px rgb(174, 174, 174);
+   height: 600px;
+   border-radius: 10px;
+}
+
+.container1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 241, 241);
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 400px;
+}
+
+.container1 form, h2 {
+    text-align: center;
+}
+
+.container2 form {
+    overflow-x: scroll;
+    overflow-x: hidden;
+    height: 600px;
+}
+
+.container1 input {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.container2 {
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F68634;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: 0.4 ease-in;
+    color: white;
+}
+
+.container2 h2 {
+    margin-top: 20px;
+}
+
+input[type=radio] {
+    background-color: green;
+}
+
+.container2 table {
+    margin-top: 20px;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+input[type=radio]{
+    width: 27px;
+    height: 16px;
+}
+
+input[type=radio]:hover,
+input[type=radio] ~ label:hover{
+    cursor: pointer;
+}
+
+label {
+    margin-right: 50px;
+}
+
+.bttn {
+    background-color: #F68634 ;
+    color: white;
+    font-family: sans-serif;
+    width: 120px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    text-align: center;
+    border-color: white;
+    transition: 0.4s ease;
+    margin-top: 40px;
+}
+
+.bttn:active {
+    transform: translate(1px, 1px);
+    border-color: #F68634;
+}
+
+.bttn:hover {
+    background-color: white;
+    color: #F68634;
+    border-color: #F68634;
+    border-width: 2px;
+}
+::-webkit-scrollbar-track {
+    background-color: #df9159;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+}

@@ -1,9 +1,46 @@
 {
-    "products": [
-        {
-          "name": " ",
-          "description": " ",
-          "value": 0
-        }
-    ]
+  "products": [
+    {
+      "id": -1,
+      "name": " ",
+      "description": " ",
+      "disponibility": false,
+      "value": 0
+    },
+    {
+      "name": "Bolo de cenoura",
+      "description": "Bolo caseiro",
+      "value": 22.5,
+      "disponibility": "true",
+      "id": 0
+    },
+    {
+      "name": "Pão de queijo",
+      "description": "Pão de queijo caseiro",
+      "value": 4.75,
+      "disponibility": "false",
+      "id": 1
+    },
+    {
+      "name": "Biscoito maizena",
+      "description": "1 unidade",
+      "value": 8.6,
+      "disponibility": "false",
+      "id": 2
+    },
+    {
+      "name": "Torta de maçã",
+      "description": "Torta caseira",
+      "value": 3.5,
+      "disponibility": "true",
+      "id": 3
+    },
+    {
+      "name": "Bolacha Passatempo",
+      "description": "1 unidade",
+      "value": 2.5,
+      "disponibility": "true",
+      "id": 4
+    }
+  ]
 }
