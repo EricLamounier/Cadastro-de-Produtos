@@ -29,7 +29,7 @@ function cadastrar(){
 }
 
 function listar(){
-    ee
+    
   fetch('http://localhost:3000/products')
 
   .then(function(response){
