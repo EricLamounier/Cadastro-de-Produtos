@@ -64,18 +64,11 @@
       "id": 7
     },
     {
-      "name": "p1",
-      "description": "p1",
+      "name": "1",
+      "description": "1",
       "value": 1,
-      "disponibility": "false",
+      "disponibility": "true",
       "id": 8
-    },
-    {
-      "name": "p2",
-      "description": "p2",
-      "value": 2,
-      "disponibility": "false",
-      "id": 9
     }
   ]
 }
