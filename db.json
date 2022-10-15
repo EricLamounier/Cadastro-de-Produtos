@@ -41,34 +41,6 @@
       "value": 2.5,
       "disponibility": "true",
       "id": 4
-    },
-    {
-      "name": "Pão de mel",
-      "description": "Pão caseiro",
-      "value": 3.75,
-      "disponibility": "false",
-      "id": 5
-    },
-    {
-      "name": "Lasanha congelada",
-      "description": "1 unidade",
-      "value": 19,
-      "disponibility": "true",
-      "id": 6
-    },
-    {
-      "name": "Milho de pipoca",
-      "description": "1 unidade",
-      "value": 5,
-      "disponibility": "true",
-      "id": 7
-    },
-    {
-      "name": "1",
-      "description": "1",
-      "value": 1,
-      "disponibility": "true",
-      "id": 8
     }
   ]
 }
