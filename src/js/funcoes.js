@@ -23,6 +23,10 @@ function cadastrar(){
         headers: {"Content-type": "application/json; charset=UTF-8"}
       })
 
+      .then(document.getElementById("nome-produto").value = " ",
+            document.getElementById("descricao-produto").value = " ",
+            document.getElementById("valor-produto").value = " ");
+
       alert('Cadastrado com sucesso!')
       console.log(_data)
       listar();
