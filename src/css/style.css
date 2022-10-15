@@ -23,7 +23,7 @@ body {
 
 .box {
    width: 1200px;
-   height: 600px;
+   height: 100vh;
    display: flex;
    box-shadow: 0px 0px 10px rgb(174, 174, 174);
    height: 600px;
@@ -140,4 +140,30 @@ label {
 }
 ::-webkit-scrollbar-thumb {
     background: white;
+}
+
+@media screen and (max-width: 412px){
+    body {
+        display: inline-block;
+        height: 1000px;
+    }
+
+    .container1{
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+
+    .container2{
+        width: 100vw;
+        height: 400px;
+        padding-bottom: 200px;
+    }
+
+    .container2 form {
+        height: 400px;
+    }
+
+    .box {
+        display: block;
+    }
 }
