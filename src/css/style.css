@@ -150,7 +150,7 @@ label {
     }
 
     .container1{
-        width: 370px;
+        max-width: 370px;
         display: flex;
         margin-top: -30px;
         margin-bottom: 40px;

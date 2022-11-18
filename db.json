@@ -8,39 +8,39 @@
       "value": 0
     },
     {
-      "name": "Bolo de cenoura",
-      "description": "Bolo caseiro",
-      "value": 22.5,
+      "name": "Bolacha PassaTempo",
+      "description": "1 unidade",
+      "value": 3.5,
       "disponibility": "true",
       "id": 0
     },
     {
-      "name": "Pão de queijo",
+      "name": "Pão de Queijo",
       "description": "Pão de queijo caseiro",
-      "value": 4.75,
-      "disponibility": "false",
-      "id": 1
-    },
-    {
-      "name": "Biscoito maizena",
-      "description": "1 unidade",
-      "value": 8.6,
-      "disponibility": "false",
+      "value": 4.9,
+      "disponibility": "true",
       "id": 2
     },
     {
-      "name": "Torta de maçã",
+      "name": "Torta de Maçã",
       "description": "Torta caseira",
-      "value": 3.5,
-      "disponibility": "true",
+      "value": 4.75,
+      "disponibility": "false",
       "id": 3
     },
     {
-      "name": "Bolacha Passatempo",
+      "name": "Biscoito Maizena",
       "description": "1 unidade",
-      "value": 2.5,
+      "value": 8.6,
       "disponibility": "true",
       "id": 4
+    },
+    {
+      "name": "Bolo de Cenoura",
+      "description": "Bolo caseiro",
+      "value": 22.5,
+      "disponibility": "false",
+      "id": 5
     }
   ]
 }
